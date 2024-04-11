@@ -235,7 +235,7 @@ p {
   }
 }
 .pa {
-  background-image: linear-gradient(to top, rgba(34, 38, 41, 0.1), #151616), linear-gradient(to bottom, rgba(34, 38, 41, 0.1), #151616), url("../Scooter/assets/fundoappp.svg");
+  background-image: linear-gradient(to top, rgba(34, 38, 41, 0.1), #151616), linear-gradient(to bottom, rgba(34, 38, 41, 0.1), #151616), url("fundoappp.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
