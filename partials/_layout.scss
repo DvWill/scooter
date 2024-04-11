@@ -1,0 +1,197 @@
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+//bg home
+
+.bg-home{
+  position: relative;
+}
+
+.bg-home::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgba(34, 38, 41, 0.1), #151616), url("../Scooter/assets/bg.svg");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  opacity: 2.0;
+}
+
+.hero{
+  color: $white-normal;
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+
+  h1{
+    text-align: center;
+    line-height: 150%;
+    max-width: 940px;
+    font-size: 46px;
+ }
+
+ p{
+  text-align: center;
+  margin: 14px 0;
+ }
+
+ .button-contact{
+  padding: 14px 28px;
+  color: $white-normal;
+  background-color: $sencondary-normal #000000;
+  border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 14px 0;
+;
+ }
+
+ .button-contact:hover{
+  animation: scaleButton 0.8s alternate infinite;
+ }
+
+ @keyframes scaleButton {
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.07);
+    }
+ }
+
+ @media screen and (max-width: 768px){
+
+  .hero{
+    min-height: 60vh;
+
+    h1{
+      font-size: 34px;
+      padding: 0 14px;
+      width: 100%;
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+  
+ }
+
+ @media screen and (max-width: 480px){
+  .hero h1{
+    font-size: 24px;
+  }
+  
+ }
+
+ //aboutttttttttttttttttt
+
+ .about{
+  background-image: linear-gradient(to top, rgba(34, 38, 41, 0.1), #151616),
+                    linear-gradient(to bottom, rgba(34, 38, 41, 0.1), #151616),
+                    /* Imagem de fundo */
+                    url("../Scooter/assets/fundoappp.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  opacity: 2.0;
+  overflow: hidden;
+  color: $white-dark;
+ }
+
+ .about-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 14px 64px 14px;
+
+  img{
+    max-width: 570px;
+  }
+ }
+ 
+ .about-content div{
+  flex: 1;
+ }
+
+ .about-description{
+
+  h2{
+    font-size: 38px;
+    margin-bottom: 24px;
+  }
+
+  p{
+    text-align: left;
+    margin-bottom: 14px;
+    line-height: 150%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-content{
+      flex-direction: column;
+    }
+    
+  }
+
+  //publicoooo
+  
+  .pa{
+    background-color: #151616;
+    opacity: 2.0;
+    overflow: hidden;
+    color: $white-dark;
+   }
+  
+   .pa-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px 14px;
+   }
+   
+   .pa-content div{
+    flex: 1;
+   }
+  
+   .pa-description{
+  
+    h1{
+      font-size: 38px;
+      margin-bottom: 24px;
+    }
+  
+    p{
+      text-align: left;
+      margin-bottom: 14px;
+      line-height: 150%;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .about-content{
+        flex-direction: column;
+      }
+      
+    }
+
+}
+
+ }

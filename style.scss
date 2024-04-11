@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+@import "partials/colors";
+@import "partials/header";
+@import "partials/layout";
+
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(34, 38, 41, 0.1), #151616), url("Scooter/assets/fundoapp.svg");
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  opacity: 2;
+}
+
+button{
+
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+}
+
+svg{
+  width: 100%;
+
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
