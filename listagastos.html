@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planilha de Gastos</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .table th, .table td {
+      font-size: 16px;
+      border-color: #ddd;
+    }
+    .table th {
+      font-weight: bold;
+      background-color: #f8f9fa;
+    }
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #f8f9fa;
+    }
+    .table-striped tbody tr:hover {
+      background-color: #e2e6ea;
+    }
+    .table-striped thead {
+      background-color: #343a40;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h2 class="mt-4 mb-4">Planilha de Gastos</h2>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Categoria de Gastos</th>
+          <th scope="col">Projeção de Gastos Mensais (R$)</th>
+          <th scope="col">Gasto Anual (R$)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Patinetes Elétricos</th>
+          <td>R$ 100.000,00</td>
+          <td>R$ 1.200.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Manutenção e Reparos</th>
+          <td>R$ 25.000,00</td>
+          <td>R$ 300.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Logística e Distribuição</th>
+          <td>R$ 16.667,00</td>
+          <td>R$ 200.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Desenvolvimento de Software</th>
+          <td>R$ 41.667,00</td>
+          <td>R$ 500.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Suporte ao Cliente</th>
+          <td>R$ 12.500,00</td>
+          <td>R$ 150.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Marketing e Publicidade</th>
+          <td>R$ 29.167,00</td>
+          <td>R$ 350.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Seguros</th>
+          <td>R$ 8.333,00</td>
+          <td>R$ 100.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Operações e Infraestrutura</th>
+          <td>R$ 16.667,00</td>
+          <td>R$ 200.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Pesquisa e Desenvolvimento</th>
+          <td>R$ 12.500,00</td>
+          <td>R$ 150.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Licenças e Taxas</th>
+          <td>R$ 8.333,00</td>
+          <td>R$ 100.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Outros</th>
+          <td>R$ 4.167,00</td>
+          <td>R$ 50.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Total de Gastos Anual</th>
+          <td>R$ 275.000,00</td>
+          <td>R$ 3.280.024,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Tabela de gastos com marketing e publicidade -->
+    <h3 class="mt-4 mb-4">Gastos com Marketing e Publicidade</h3>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Categoria de Gastos</th>
+          <th scope="col">Projeção de Gastos Mensais (R$)</th>
+          <th scope="col">Gasto Anual (R$)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Anúncios Online</th>
+          <td>R$ 5.000,00</td>
+          <td>R$ 60.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Marketing de Influenciadores</th>
+          <td>R$ 4.000,00</td>
+          <td>R$ 48.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Parcerias com Empresas Locais</th>
+          <td>R$ 4.000,00</td>
+          <td>R$ 48.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Eventos de Lançamento</th>
+          <td>R$ 4.000,00</td>
+          <td>R$ 48.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Programas de Indicação</th>
+          <td>R$ 3.500,00</td>
+          <td>R$ 42.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Conteúdo de Mídia Social</th>
+          <td>R$ 4.000,00</td>
+          <td>R$ 48.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Publicidade Exterior</th>
+          <td>R$ 3.000,00</td>
+          <td>R$ 36.000,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Colaborações com Mídia Local</th>
+          <td>R$ 1.667,00</td>
+          <td>R$ 20.004,00</td>
+        </tr>
+        <tr>
+          <th scope="row">Total de Gastos Anual</th>
+          <td>R$ 29.167,00</td>
+          <td>R$ 350.004,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="container text-center" style="margin-bottom: 70px;"> <!-- Adicionando classe text-center para centralizar -->
+    <a href="index.html" class="button-contact" target="_blank" style="text-decoration: none;">
+        Voltar para o Site
+    </a>
+</div>
+</body>
+</html>
