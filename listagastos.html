@@ -37,11 +37,21 @@
       background-color: #343a40;
       color: #fff;
     }
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+      color: #333;
+      text-align: center;
+    }
+    .line {
+      border-top: 2px solid #ccc;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-
     <h2 class="mt-4 mb-4">Planilha de Gastos</h2>
     <table class="table table-striped">
       <thead class="thead-dark">
@@ -53,14 +63,14 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Patinetes Elétricos</th>
-          <td>R$ 100.000,00</td>
-          <td>R$ 1.200.000,00</td>
+          <th scope="row"><s>Patinetes Elétricos</s></th>
+          <td><s>R$ 100.000,00</s></td>
+          <td><s>R$ 1.200.000,00</s></td>
         </tr>
         <tr>
-          <th scope="row">Manutenção e Reparos</th>
-          <td>R$ 25.000,00</td>
-          <td>R$ 300.000,00</td>
+          <th scope="row"><s>Manutenção e Reparos</s></th>
+          <td><s>R$ 25.000,00</s></td>
+          <td><s>R$ 300.000,00</s></td>
         </tr>
         <tr>
           <th scope="row">Logística e Distribuição</th>
@@ -108,15 +118,50 @@
           <td>R$ 50.004,00</td>
         </tr>
         <tr>
-          <th scope="row">Total de Gastos </th>
-          <td>R$ 275.000,00</td>
-          <td>R$ 3.280.024,00</td>
+          <th scope="row">Total de Gastos Anual</th>
+          <td><u>R$ 275.000,00</u></td>
+          <td><u>R$ 3.280.024,00</u></td>
+        </tr>
+        <tr>
+          <th scope="row">Sem os Riscados</th>
+          <td>R$ 148.335,33</td>
+          <td>R$ 1.780.024,00</td>
         </tr>
       </tbody>
     </table>
 
+    <h3 class="mt-4 mb-4">Receita Total Anual do Aluguel: R$ 3.650.000,00</h3>
+    <table class="table table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Número de Patinetes</th>
+          <th scope="col">Horas de Aluguel por Dia</th>
+          <th scope="col">Valor</th>
+          <th scope="col">Receita Anual por Patinete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>100</td>
+          <td>5</td>
+          <td>20,00</td>
+          <td>R$ 36.500,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>R$3.650.000,00</h1>
+    <h1>-30% da Lime</h1>
+    <div class="line"></div>
+    <h1>R$2.555.000,00</h1>
+    <h1>-R$1.780.024,00</h1>
+    <div class="line"></div>
+    <h1>R$774.976,00</h1>
+
+
+
     <!-- Tabela de gastos com marketing e publicidade -->
-    <h3 class="mt-4 mb-4">Gastos com Marketing e Publicidade</h3>
+    <h3 class="mt-5 mb-4">Gastos com Marketing e Publicidade</h3>
     <table class="table table-striped">
       <thead class="thead-dark">
         <tr>
@@ -167,7 +212,7 @@
           <td>R$ 20.004,00</td>
         </tr>
         <tr>
-          <th scope="row">Total de Gastos </th>
+          <th scope="row">Total de Gastos Anual</th>
           <td>R$ 29.167,00</td>
           <td>R$ 350.004,00</td>
         </tr>
@@ -178,6 +223,6 @@
     <a href="index.html" class="button-contact" target="_blank" style="text-decoration: none;">
         Voltar para o Site
     </a>
-</div>
+  </div>
 </body>
 </html>
